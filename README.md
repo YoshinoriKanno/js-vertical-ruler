@@ -1,1 +1,1 @@
-# js-ruler--vertical
+# js-vertical-ruler
