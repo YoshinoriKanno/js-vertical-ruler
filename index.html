@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+  </head>
+
+  <body id="page-top">
+    <div id="page">
+      <header id="header">
+        <div class="inner">
+          <ul id="nav">
+            <li><a href="#content01" class="js-smooth-scroll">Page Top</a></li>
+            <li><a href="#content02" class="js-smooth-scroll">About</a></li>
+            <li><a href="#content03" class="js-smooth-scroll">How to Use</a></li>
+            <li><a href="#content04" class="js-smooth-scroll">footer</a></li>
+          </ul>
+        </div>
+      </header>
+      <div id="contents">
+        <div class="inner">
+          <div class="main">
+            <div id="content01" class="content content01">
+              <h1>JS Vertical Ruler</h1>
+              <p>Version 1.0</p>
+            </div>
+            <div id="content02" class="content content02">
+              <h2>About JS Vertical Ruler</h2>
+              <p>左端に100ピクセル単位のルーラーを表示させます。</p>
+              <p>jQuery に依存しません。</p>
+            </div>
+            <div id="content03" class="content content03">
+              <h2>How to Use</h2>
+              <p>下記 HTML を &lt;body&gt; 内に記述</p>
+              <pre class="prettyprint lang-html linenums">
+                &lt;div id=&quot;ruler&quot; class=&quot;ruler&quot;&gt;&lt;/div&gt;
+              </pre>
+              <p>vertical-ruler.js を &lt;body&gt; 内に記述</p>
+              <pre class="prettyprint lang-html linenums">
+                &lt;script src=&quot;./vertical-ruler.js&quot;&gt;&lt;/script&gt;
+              </pre>
+            </div>
+            <div id="content04" class="content content04">
+              <p class="copy">made with ❤️ by @yothic8</p>
+            </div>
+            <a href="#page-top" class="page-top js-smooth-scroll">top</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ruler" class="ruler"></div>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=html&skin=doxy"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+    <script src="./current-sticky.js"></script>
+    <script src="./smooth-scroll.js"></script>
+    <script src="./vertical-ruler.js"></script>
+  </body>
+
+</html>
